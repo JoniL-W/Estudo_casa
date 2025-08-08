@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: arial;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.itens_cabecalho {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 20px;
+    align-items: center;
+}
+
+.pontinhos {
+    width: 24px;
+    height: 24px;
+}
+
+.botao_entrar {
+    background-color: rgb(81, 137, 219);
+    color: #fff;
+    padding: 4px 8px 4px 8px;
+}
+
+.barra_pesquisa {
+    display: grid;
+    box-shadow: -1px -1px 10px -5px black;
+    border-radius: 30px;
+    width: 20%;
+    padding: 10px;
+    justify-content: end;
+    box-shadow: black 0, 2px;
+}
+
+.lista_pesquisa {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.lista_pesquisa img {
+    width: 25px;
+
+}
+
+& .barra_pesquisa {
+    & img {
+        width: 25px;
+        height: 25px;
+
+    }
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    margin-top: 6%;
+}
+
+& .img_google {
+    & img {
+        margin-bottom: 30px;
+    }
+}
+
+& .botoes_inferiores {
+    & button {
+        margin-top: 40px;
+    }
+}
+& .lista_pesquisa {
+
+ 
+    & li .lupa {
+       display: flex;
+       margin-right: 360px;
+    }
+
+}
+
+
